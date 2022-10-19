@@ -273,7 +273,7 @@ justify-content: center;
     } 
     /* //////////////////////////////////////////// */
     
-  .description a,.description2 a{
+  .description a{
   text-decoration: none;
   color: #1D1D1F;
   }
