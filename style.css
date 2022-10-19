@@ -55,14 +55,23 @@
   }
   */
   .searchbar{
+    display: flex;
+    justify-content: center;
    text-align: center;
+   align-items: center;
    /* margin: 40px;
    padding: 40px; */
    margin-bottom: 20px;
   }
+  .search{
+    display: flex;
+justify-content: center;
+    align-items: center;
+  }
   .title{
     font-weight:lighter;
     margin-bottom: 0px;
+    text-align: center;
   }
   
   input[type=text]{
@@ -75,7 +84,7 @@
   input[type="text"]::placeholder {
                  
     /* Firefox, Chrome, Opera */
-    text-align: left;
+    text-align: center;
   }
   
   .browse1{
