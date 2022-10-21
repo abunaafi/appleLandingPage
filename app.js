@@ -7,3 +7,4 @@ new Glider(document.querySelector(".glider"),{
         next:'.glider-next'
     }
 })
+

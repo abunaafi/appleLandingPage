@@ -54,6 +54,47 @@
     font-size: 20px;
     float: left 5px;
   }
+
+  .browsebuttons{
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid  #D2D2D7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+  }
+  .bt-browse,.bt-category{
+margin-left: 15px;
+border: none;
+background-color: white;
+font-size: 17px;
+padding: 9px 0px 11px;
+  }
+  .productimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid  #D2D2D7;
+    /* padding-bottom: 2%; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mac img{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    border: 1px solid #e6e6e9;
+    border-radius: 50%;
+    padding: 40px;
+  }
   .background{
     display: flex;
     align-items: center;
